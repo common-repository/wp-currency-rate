@@ -1,0 +1,206 @@
+/**
+* @package		WP Social Slider
+* @author		Team Fanush
+
+*/
+
+ul#jj_sl_navigation {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    z-index:9999;
+	font-family: Arial,Helvetica,sans-serif;
+}
+ul#jj_sl_navigation li {
+	padding: 1px 0px 1px 0px;
+    overflow:hidden;
+	direction: ltr;
+}
+
+ul#jj_sl_navigation li a {
+    display: block;
+    width: 170px;  
+    background-repeat:no-repeat;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+	
+}
+ul#jj_sl_navigation li a .jj_social_text {
+    display: inline-block;
+	width: 125px;	
+}
+ul#jj_sl_navigation .facebook a:hover{ background-color: #3B5998; }
+ul#jj_sl_navigation .twitter a:hover{ background-color: #62BDB2; }
+ul#jj_sl_navigation .google a:hover{ background-color: #DB4A39; }
+ul#jj_sl_navigation .myspace a:hover{ background-color: #3B64B3; }
+ul#jj_sl_navigation .youtube a:hover{ background-color: #CC252C; }
+ul#jj_sl_navigation .linkedin a:hover{ background-color: #4F93B3; }
+ul#jj_sl_navigation .steam a:hover{ background-color: #111111; }
+ul#jj_sl_navigation .lastfm a:hover{ background-color: #bf0d1c; }
+ul#jj_sl_navigation .pinterest a:hover{ background-color: #b61d23; }
+ul#jj_sl_navigation .soundcloud a:hover{ background-color: #ff5419; }
+ul#jj_sl_navigation .tumblr a:hover{ background-color: #304e6c; }
+ul#jj_sl_navigation .github a:hover{ background-color: #222222; }
+ul#jj_sl_navigation .flickr a:hover{ background-color: #ff0084; }
+ul#jj_sl_navigation .rss a:hover{ background-color: #FF6600; }
+ul#jj_sl_navigation .vimeo a:hover{ background-color: #1BB7EA; }
+
+ul#jj_sl_navigation .facebook a:hover, 
+ul#jj_sl_navigation .twitter a:hover, 
+ul#jj_sl_navigation .google a:hover, 
+ul#jj_sl_navigation .myspace a:hover,
+ul#jj_sl_navigation .youtube a:hover,
+ul#jj_sl_navigation .linkedin a:hover,
+ul#jj_sl_navigation .steam a:hover,
+ul#jj_sl_navigation .lastfm a:hover,
+ul#jj_sl_navigation .pinterest a:hover,
+ul#jj_sl_navigation .soundcloud a:hover,
+ul#jj_sl_navigation .tumblr a:hover,
+ul#jj_sl_navigation .github a:hover,
+ul#jj_sl_navigation .flickr a:hover,
+ul#jj_sl_navigation .rss a:hover,
+ul#jj_sl_navigation .vimeo a:hover,
+ul#jj_sl_navigation .custom1 a:hover,
+ul#jj_sl_navigation .custom2 a:hover,
+ul#jj_sl_navigation .custom3 a:hover,
+ul#jj_sl_navigation .custom4 a:hover,
+ul#jj_sl_navigation .custom5 a:hover{
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+	
+	
+	/*******Social Slider CSS**********/	
+		
+		
+		ul#jj_sl_navigation li a {
+			background-color:#33353B;
+			text-align:left;
+			color:#FFFFFF !important;
+		}
+		ul#jj_sl_navigation .instagram a:hover{
+			background-color: #4f7ca2;
+		}
+
+		ul#jj_sl_navigation .custom2 a:hover{
+			background-color: #000000;
+		}
+
+		ul#jj_sl_navigation .custom3 a:hover{
+			background-color: #000000;
+		 }
+
+		 ul#jj_sl_navigation .custom4 a:hover{
+			background-color: #000000;
+		 }
+		 ul#jj_sl_navigation .custom5 a:hover{
+			background-color: #000000;
+		  }
+		ul#jj_sl_navigation { 
+			left:0px;top:10px;
+		}
+		ul#jj_sl_navigation li:hover { 
+			margin-left: 0px;
+		}
+		ul#jj_sl_navigation li a { 
+			padding: 11px 0px 11px 10px;
+			margin-left: -2px;
+		}
+		ul#jj_sl_navigation .facebook a {
+			background-position: 144px 50%;
+			background-image: url(../icons/facebook-white.png);
+		}
+		ul#jj_sl_navigation .twitter a {
+			background-position: 144px 50%;
+			background-image: url(../icons/twitter-white.png);
+		}
+		ul#jj_sl_navigation .google a {
+			background-position: 144px 50%;
+			background-image: url(../icons/google-white.png);
+		 }
+		 ul#jj_sl_navigation .myspace a {
+			background-position: 144px 50%;
+			background-image: url(../icons/myspace-white.png);
+		 }
+		 ul#jj_sl_navigation .youtube a {
+			background-position: 144px 50%;
+			background-image: url(../icons/youtube-white.png);
+		 }
+		 ul#jj_sl_navigation .linkedin a {
+			background-position: 144px 50%;
+			background-image: url(../icons/linkedin-white.png);
+		 }
+		 ul#jj_sl_navigation .steam a {
+			background-position: 144px 50%;
+			background-image: url(../icons/steam-white.png);
+		 }
+		 ul#jj_sl_navigation .lastfm a {
+			background-position: 144px 50%;
+			background-image: url(../icons/lastfm-white.png);
+		}
+		ul#jj_sl_navigation .pinterest a {
+		   background-position: 144px 50%;
+		   background-image: url(../icons/pinterest-white.png);
+		}
+		ul#jj_sl_navigation .soundcloud a {
+			background-position: 144px 50%;
+			background-image: url(../icons/soundcloud-white.png);
+		}
+		ul#jj_sl_navigation .tumblr a {
+			background-position: 144px 50%;
+			background-image: url(../icons/tumblr-white.png);
+		 }
+		 ul#jj_sl_navigation .github a {
+			background-position: 144px 50%;
+			background-image: url(../icons/github-white.png);
+		 }
+		 ul#jj_sl_navigation .flickr a {
+			background-position: 144px 50%;
+			background-image: url(../icons/flickr-white.png);
+		 }
+		 ul#jj_sl_navigation .rss a {
+			background-position: 144px 50%;
+			background-image: url(../icons/rss-white.png);
+		 }
+		  ul#jj_sl_navigation .vimeo a {
+			background-position: 144px 50%;
+			background-image: url(../icons/vimeo-white.png);
+		 }
+		 ul#jj_sl_navigation .instagram a {
+			background-position: 144px 50%;
+			background-image: url(../icons/instagram-white.png);
+		  }
+		  ul#jj_sl_navigation .custom2 a {
+			background-position: 144px 50%;
+			background-image: url(http://joomjunk.co.uk/media/mod_social_slider/icons/icon.png);
+		 }
+		 ul#jj_sl_navigation .custom3 a {
+			background-position: 144px 50%;
+			background-image: url(http://joomjunk.co.uk/media/mod_social_slider/icons/icon.png);
+		 }
+		 ul#jj_sl_navigation .custom4 a {
+			background-position: 144px 50%;
+			background-image: url(http://joomjunk.co.uk/media/mod_social_slider/icons/icon.png);
+		 }
+		 ul#jj_sl_navigation .custom5 a {
+			background-position: 144px 50%;
+			background-image: url(http://joomjunk.co.uk/media/mod_social_slider/icons/icon.png);
+		  }
+		ul#jj_sl_navigation li { 
+			margin-left: -140px;
+			-webkit-transition: margin-left 0.3s;
+			-moz-transition: margin-left 0.3s;
+			-ms-transition: margin-left 0.3s;
+			-o-transition: margin-left 0.3s;
+			transition: margin-left 0.3s;
+		}

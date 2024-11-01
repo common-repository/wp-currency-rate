@@ -1,0 +1,9 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+
+.currency-country table tr td {
+  padding: 5px;
+}
+.currency-country h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
